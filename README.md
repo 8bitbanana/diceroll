@@ -1,6 +1,8 @@
 # diceroll
 
-A DnD dice syntax parser I wrote last year.
+A DnD dice syntax parser I wrote last year. Parsers are fun!
+
+Was written to be slotted into a full WASM character sheet, which maybe I'll write some day.
 
 ## Stuff you can do:
  - Roll a dice: `1d8`
