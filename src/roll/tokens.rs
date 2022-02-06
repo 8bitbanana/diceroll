@@ -63,7 +63,7 @@ impl<'a> InputIter for Tokens<'a> {
     fn position<P>(&self, predicate: P) -> Option<usize>
   where
     P: Fn(Self::Item) -> bool {
-        self.iter().position(|b| predicate(b))
+        self.iter().position(predicate)
     }
 
     #[inline]

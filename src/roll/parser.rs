@@ -113,7 +113,7 @@ macro_rules! tokens {
         ])
     };
     ( $($Items:expr),* ) => {
-        tokens!($($Items,)*);
+        tokens!($($Items,)*)
     }
 }
 

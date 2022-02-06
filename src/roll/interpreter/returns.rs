@@ -1,3 +1,5 @@
+#![allow(clippy::vec_init_then_push)]
+
 use std::{fmt, fmt::{Debug, Display}, ops::{Bound, RangeBounds}};
 
 use crate::roll::interpreter::rolls::Roll;

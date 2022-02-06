@@ -117,7 +117,7 @@ pub fn parse(input: &str) -> Result<(parser::Expr, UnresolvedVariables), ParseEr
             let location = lex_result.len() - remaining.len();
             // Map the location from lexed tokens to the actual input string
             let mut current_pos = 0;
-            #[allow(clippy::clippy::needless_range_loop)]
+            #[allow(clippy::needless_range_loop)]
             for index in 0..location {
                 current_pos += input_map[index].len();
             }
